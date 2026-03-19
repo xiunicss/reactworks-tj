@@ -1,0 +1,6 @@
+깃허브 업로드
+
+git add .
+git commit -m "변경사항"
+git push origin main
+
