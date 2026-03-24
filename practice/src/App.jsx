@@ -6,6 +6,9 @@ import './App.css'
 import Header from './components/Header'
 import Main from './components/Main'
 import Footer from './components/Footer'
+import Map from './components/Map'
+import Like from './components/Like'
+import InputT from './components/InputT'
 
 function App() {
   const user = "수현";
@@ -30,6 +33,12 @@ function App() {
       <Header />
       <Main />
       <Footer />
+      <br/>
+      <br/>
+
+      <Map />
+      <Like />
+      <InputT />
 
       
     

@@ -1,1 +1,16 @@
+body {
+    padding: 20px;
+}
 .products ul {list-style: none;}
+.drink-list {list-style: none;padding: 0;}
+.avatar {
+    border-radius: 3%;
+}
+.card{
+    margin: 0 auto;
+    border: 2px solid #06cccc;
+    border-radius: 3%;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+}
