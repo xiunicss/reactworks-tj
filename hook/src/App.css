@@ -1,7 +1,7 @@
+#root{border: none;}
 body {
     padding: 20px;
 }
-.products ul {list-style: none;}
 .drink-list {list-style: none;padding: 0;}
 .avatar {
     border-radius: 3%;
@@ -14,3 +14,14 @@ body {
     max-width: 300px;
     text-align: center;
 }
+ul {
+    list-style: none;
+    padding: 0;
+}
+button {
+    margin: 10px;
+}
+.form-wrap p {
+    text-align: left;
+}
+.form-wrap p + p {margin-top: 10px;}

@@ -10,14 +10,26 @@ import AddDrink from './components/AddDrink'
 import User from './components/user'
 import Clock from './components/Clock'
 import Profile from './card/Profile'
+import MapTest from './components/MapText'
+import SignUp from './form/SignUp'
+import SignIn from './form/SignIn'
+
 
 function App() {
 
 
   return (
     <>
-      <h2>props - 속성 전달</h2>
-      <Profile />
+
+      <SignIn />
+      {/* <SignUp /> */}
+
+
+
+      {/* <h2>props - 속성 전달</h2> */}
+      {/* <MapTest /> */}
+
+      {/* <Profile /> */}
 
       {/* <Clock /> */}
       {/* <User /> */}

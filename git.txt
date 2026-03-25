@@ -4,3 +4,6 @@ git add .
 git commit -m "변경사항"
 git push origin main
 
+
+form - get,post 방식(method, action)
+rest api - get, post, put, delete
