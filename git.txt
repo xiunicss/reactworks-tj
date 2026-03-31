@@ -4,6 +4,10 @@ git add .
 git commit -m "변경사항"
 git push origin main
 
+npm run deploy // 배포할때만 필요
+
 
 form - get,post 방식(method, action)
 rest api - get, post, put, delete
+
+
