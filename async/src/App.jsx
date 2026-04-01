@@ -1,5 +1,10 @@
 import './App.css'
-import FatchExsample from './components/FatchExample'
+import AxiosGet from './axios/AxiosGet'
+import AxiosGetById from './axios/AxiosGetById'
+import AxiosPost from './axios/AxiosPost'
+import FetchExample from './components/FetchExample'
+import FetchExample2 from './components/FetchExample2'
+import Todos from './todos/Todos'
 
 function App() {
 
@@ -7,7 +12,15 @@ function App() {
     <>
       <section className="center">
         {/* <h2>비동기처리</h2> */}
-        <FatchExsample />
+        {/* /FetchExample /> */}
+        {/* <FetchExample2 id={3} /> */}
+        {/* <Todos />/ */}
+        {/* <AxiosGet /> */}
+        {/* <AxiosGetById id={2} /> */}
+        <AxiosPost />
+
+
+
       </section>
     </>
   )

@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 
-const FatchExsample = () => {
+const FetchExample = () => {
     const [date, setData] = useState([]);
 
+    //컴포넌트가 마운트될때 한 번만 실행(렌더링)
     useEffect(() => {
         fetch("https://jsonplaceholder.typicode.com/todos")
         .then((response) => response.json()) //json -> js 객체로 변환
@@ -26,4 +27,4 @@ const FatchExsample = () => {
     )
 }
 
-export default FatchExsample
+export default FetchExample
