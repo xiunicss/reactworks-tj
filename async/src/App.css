@@ -33,3 +33,24 @@ ul li{list-style: none;}
 button {
   margin-left: 8px;
 }
+
+.user-table {
+  border: 1px solid #7f7f7f;
+}
+
+.user-table {
+  width: 80%;
+  margin: 0 auto;
+  border-spacing: 0;
+  box-sizing: border-box;
+}
+.user-table th,
+.user-table td {
+  border: 1px solid #7f7f7f;
+  padding: 0; 
+}
+
+.user-table th {
+  background-color: #eee;
+  font-weight: bold;
+}

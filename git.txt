@@ -11,3 +11,5 @@ form - get,post 방식(method, action)
 rest api - get, post, put, delete
 
 
+//리액트 프로젝트 만들기
+npm create vite@latest .
