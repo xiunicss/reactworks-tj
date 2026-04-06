@@ -23,7 +23,7 @@ const CountReducer = () => {
     const [state, dispatch] = useReducer(reducer,{count: 0})
 
     return(
-        <div>
+        <div className="use-reducer">
             <h2>useReducer() 예제</h2>
             <h3>{state.count}</h3>
 
